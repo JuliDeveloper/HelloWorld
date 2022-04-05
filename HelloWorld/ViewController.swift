@@ -22,11 +22,10 @@ class ViewController: UIViewController {
         helloWorldLable.isHidden.toggle()
         
         if helloWorldLable.isHidden {
-            showTextButton.setTitle("Show text", for: .normal)
+            showTextButton.setTitle("Show Text", for: .normal)
         } else {
-            showTextButton.setTitle("Hide text", for: .normal)
-        }
-    }
+            showTextButton.setTitle("Hide Text", for: .normal)
+        }    }
     
 }
 
