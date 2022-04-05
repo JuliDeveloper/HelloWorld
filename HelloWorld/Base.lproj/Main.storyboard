@@ -23,16 +23,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFP-6s-4M9">
-                                <rect key="frame" x="132" y="724" width="150" height="44"/>
+                                <rect key="frame" x="107" y="727" width="200" height="44"/>
                                 <color key="backgroundColor" systemColor="systemMintColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="Ada-Bu-zTI"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="GZi-Zz-E3C"/>
+                                    <constraint firstAttribute="height" constant="44" id="aNl-ti-S25"/>
                                 </constraints>
                                 <color key="tintColor" red="0.71684408187866211" green="0.93514692783355713" blue="0.8075752854347229" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show text">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="32"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="showText" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ot-v2-HJu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -40,11 +44,15 @@
                         <constraints>
                             <constraint firstItem="aFP-6s-4M9" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="DUO-Y4-gzk"/>
                             <constraint firstItem="K4n-NR-G3w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="MP3-uQ-4V5"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aFP-6s-4M9" secondAttribute="bottom" constant="94" id="NXE-e2-Wus"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="aFP-6s-4M9" secondAttribute="bottom" constant="91" id="NXE-e2-Wus"/>
                             <constraint firstItem="K4n-NR-G3w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="135" id="q9N-GV-deB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="K4n-NR-G3w" secondAttribute="trailing" constant="100" id="tQK-gE-Vxd"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="helloWorldLable" destination="K4n-NR-G3w" id="wLa-08-mNY"/>
+                        <outlet property="showTextButton" destination="aFP-6s-4M9" id="02R-o8-53c"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

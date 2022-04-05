@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="H6j-yy-n7m">
-                                <rect key="frame" x="107.99999999999999" y="286" width="198.66666666666663" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="H6j-yy-n7m">
+                                <rect key="frame" x="115.5" y="427.5" width="183" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -25,9 +25,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.71684408187866211" green="0.93514692783355713" blue="0.8075752854347229" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="H6j-yy-n7m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="242" id="MXw-6I-Vmj"/>
-                            <constraint firstItem="H6j-yy-n7m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="Zic-Du-4Us"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H6j-yy-n7m" secondAttribute="trailing" constant="107.5" id="lDD-Gf-4Op"/>
+                            <constraint firstItem="H6j-yy-n7m" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="N9Y-Qw-XVW"/>
+                            <constraint firstItem="H6j-yy-n7m" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="boA-CJ-2bw"/>
                         </constraints>
                     </view>
                 </viewController>
